@@ -1,0 +1,33 @@
+src/*.exe
+src/titanium
+src/titaniumd
+src/test_titanium
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.titanium
+
+# Compilation and Qt preprocessor part
+*.qm
+titanium-qt
+Titanium-Qt.app
+
+# Unit-tests
+Makefile.test
+titanium-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
